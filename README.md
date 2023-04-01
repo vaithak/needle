@@ -2,6 +2,8 @@
 
 ![image](needle.png)  
 
+**NE**cessary **E**lements of **D**eep **LE**arning
+
 A basic autograd engine with a minimalist module for implementing neural nets above it and GPU-supported array backend.  
 It works by doing reverse mode AD (Automatic Differentiation) over the dynamically built computational graph.
 
