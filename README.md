@@ -1,7 +1,8 @@
 # needle
-A minimalist Pytorch-like neural net framework with custom-built autograd engine and GPU-supported array backend.  
-This was built using course assignments for [CMU's DL systems course](https://dlsyscourse.org/)  
 
 ![image](needle.png)  
 
-- Examples are in [apps](/apps) directory.
+A basic autograd engine with a minimalist module for implementing neural nets above it and GPU-supported array backend.  
+It works by doing reverse mode AD (Automatic Differentiation) over the dynamically built computational graph.
+
+This was a personal just for fun and learning project built using course assignments for [CMU's DL systems course](https://dlsyscourse.org/)  
